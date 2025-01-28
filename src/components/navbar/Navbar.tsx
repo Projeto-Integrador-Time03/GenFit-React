@@ -1,24 +1,19 @@
 function Navbar() {
-    return (
-        <>
-            <div className='w-full flex justify-center py-4
-            			   bg-indigo-900 text-white'>
-            
-                <div className="container flex justify-between text-lg">
-                    GenFit
-
-                    <div className='flex gap-4'>
-                        Home
-                        Série
-                        Cadastro
-                        Perfil
-                        Sobre nós
-                        Sair
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div
+        className="w-full flex justify-center py-4
+            			   bg-indigo-900 text-white"
+      >
+        <div className="container flex justify-between text-lg">
+          GenFit
+          <div className="flex gap-4">
+            Home Série Cadastro Perfil Sobre nós Sair
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
