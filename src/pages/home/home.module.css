@@ -4,7 +4,6 @@
   justify-content: center;
   background-image: linear-gradient(black, white);
   min-height: 100vh;
-  align-items: start;
 }
 
 .content {
@@ -14,19 +13,21 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   margin-bottom: 2rem;  
+  text-shadow: 1px 1px 1px black;
 }
 
 .description {
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   color: white;
   text-align: center;
+  text-shadow: 1px 1px 1px black;
 }
 
 .image {
-  width: 400px;
+  width: 700px;
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 25px;
@@ -35,7 +36,7 @@
 
 @media (max-width: 768px) {
   .content {
-    width: 90vw;
+    width: 0vw;
   }
 
   .image {
