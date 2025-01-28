@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
@@ -12,10 +12,12 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <div className="min-h-[80vh]">
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/sobre" element={<Sobre />} />
-          <Route path="/series" element={<ListaSeries />} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/sobre" element={<Sobre />} />
+            <Route path="/series" element={<ListaSeries />} />
+          </Routes>
         </div>
         <Footer />
       </BrowserRouter>

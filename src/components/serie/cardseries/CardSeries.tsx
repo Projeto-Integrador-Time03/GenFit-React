@@ -7,7 +7,7 @@ function CardSeries() {
             flex flex-col rounded overflow-hidden justify-between"
     >
       <div>
-        <div className="flex w-full bg-indigo-400 py-2 px-4 items-center gap-4">
+        <div className="flex w-full bg-zinc-100 py-2 px-4 items-center gap-4">
           <img
             src="https://i.imgur.com/pK6vSCy.png"
             className="h-12 rounded-full"
@@ -17,7 +17,7 @@ function CardSeries() {
             Nome do Usuário
           </h3>
         </div>
-        <div className="p-4 ">
+        <div className="p-4 bg-orange-400" >
           <h4 className="text-lg font-semibold uppercase">Nome</h4>
           <p>Descrição:</p>
           <p>Exercício: </p>
@@ -27,14 +27,14 @@ function CardSeries() {
       <div className="flex">
         <Link
           to=""
-          className="w-full text-white bg-indigo-400 
+          className="w-full text-black  bg-zinc-100
                     hover:bg-indigo-800 flex items-center justify-center py-2"
         >
           <button>Editar</button>
         </Link>
         <Link
           to=""
-          className="text-white bg-red-400 
+          className="text-white bg-red-400/80 
                     hover:bg-red-700 w-full flex items-center justify-center"
         >
           <button>Deletar</button>

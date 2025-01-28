@@ -1,15 +1,28 @@
 function Sobre() {
   return (
     <>
-      <div className="bg-indigo-900 flex justify-center">
-        <div className="container grid grid-cols-2 text-white">
-          <div className="flex flex-col gap-4 items-center justify-center py-4">
-            <h2 className="text-5xl font-bold">Sobre nós</h2>
-            <p className="text-xl">
-              Somos desenvolvedores especializados, formados na Generation
-              Brasil, que unem precisão técnica e criatividade para materializar
-              soluções digitais de alto impacto.
-            </p>
+      <div className="bg-gradient-to-b from-black to-white flex justify-center min-h-screen">
+        <div className="container flex text-white">
+          <div className="flex flex-col gap-4 items-start py-4">
+            <div className="flex  gap-4 items-center justify-center">
+              <div className="flex flex-col gap-4 items-center justify-center">
+                <h2 className="text-5xl font-bold">Sobre nós</h2>
+                <br />
+                <p className="text-xl">
+                  Combinamos inovação e precisão técnica para desenvolver o
+                  GenFit, uma plataforma de fitness personalizada que transforma
+                  a maneira como as pessoas se conectam com sua saúde e
+                  bem-estar, criando treinos sob medida e facilitando o
+                  gerenciamento completo de usuários e exercícios.
+                </p>
+              </div>
+              <img
+                src="https://img.freepik.com/fotos-premium/ginasio-de-fundo-exercicio-de-fundo-textura-de-fundo-ginasio-textura-de-fondo-ginasio-academia-academia-ginasio_1246444-19634.jpg?w=740"
+                alt="Foto de Academia"
+                width={400}
+                className="rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </div>
